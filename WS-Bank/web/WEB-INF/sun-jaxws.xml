@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="com.bank.getTransaction" name="getTransaction" url-pattern="/getTransaction"/>
+  <endpoint implementation="com.bank.Transfer" name="Transfer" url-pattern="/Transfer"/>
+  <endpoint implementation="com.bank.ValidasiNoRekening" name="ValidasiNoRekening" url-pattern="/ValidasiNoRekening"/>
+  <endpoint implementation="com.bank.MakeVirtual" name="MakeVirtual" url-pattern="/MakeVirtual"/>
+  <endpoint implementation="com.bank.getDataRekening" name="getDataRekening" url-pattern="/getDataRekening"/>
+</endpoints>
